@@ -1,0 +1,90 @@
+[
+  {
+    "productType": "BrakePad",
+    "materialType": "Cerámica",
+    "vehicleCompatibility": "Sedán compacto",
+    "id": "BP-001",
+    "name": "Pastilla Frontal Sedán",
+    "brand": "FrenoPlus",
+    "price": 120000.0,
+    "stock": 25,
+    "imagePath": "data/Images/BP-001.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Metálica",
+    "vehicleCompatibility": "SUV mediana",
+    "id": "BP-002",
+    "name": "Pastilla Trasera SUV",
+    "brand": "FrenoPlus",
+    "price": 150000.0,
+    "stock": 18,
+    "imagePath": "data/Images/BP-002.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Semi-Metalica",
+    "vehicleCompatibility": "Deportivo",
+    "id": "BP-003",
+    "name": "Pastilla Premium Deportivo",
+    "brand": "BrakeMaster",
+    "price": 200000.0,
+    "stock": 10,
+    "imagePath": "data/Images/BP-003.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Cerámica",
+    "vehicleCompatibility": "Hatchback",
+    "id": "BP-004",
+    "name": "Pastilla Frontal Hatchback",
+    "brand": "FrenoPlus",
+    "price": 110000.0,
+    "stock": 30,
+    "imagePath": "data/Images/BP-004.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Metálica",
+    "vehicleCompatibility": "Pickup",
+    "id": "BP-005",
+    "name": "Pastilla Todo Terreno",
+    "brand": "BrakeMaster",
+    "price": 220000.0,
+    "stock": 12,
+    "imagePath": "data/Images/BP-005.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Semi-Metalica",
+    "vehicleCompatibility": "Sedán mediana",
+    "id": "BP-006",
+    "name": "Pastilla Trasera Sedán",
+    "brand": "FrenoPlus",
+    "price": 130000.0,
+    "stock": 20,
+    "imagePath": "data/Images/BP-006.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Cerámica",
+    "vehicleCompatibility": "SUV grande",
+    "id": "BP-007",
+    "name": "Pastilla Frontal SUV",
+    "brand": "BrakeMaster",
+    "price": 180000.0,
+    "stock": 15,
+    "imagePath": "data/Images/BP-007.jpg"
+  },
+  {
+    "productType": "BrakePad",
+    "materialType": "Metálica",
+    "vehicleCompatibility": "Hatchback",
+    "id": "BP-008",
+    "name": "Pastilla Trasera Hatchback",
+    "brand": "FrenoPlus",
+    "price": 105000.0,
+    "stock": 28,
+    "imagePath": "data/Images/BP-008.jpg"
+  }
+]

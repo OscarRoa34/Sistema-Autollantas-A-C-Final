@@ -1,0 +1,68 @@
+[
+  {
+    "productType": "Tire",
+    "size": "185/65 R15",
+    "type": "Radial",
+    "id": "LLANTA-001",
+    "name": "Llanta Sedán 185/65 R15",
+    "brand": "NeumaPlus",
+    "price": 350000.0,
+    "stock": 20,
+    "imagePath": "data/Images/LLANTA-001.png"
+  },
+  {
+    "productType": "Tire",
+    "size": "195/55 R16",
+    "type": "Radial",
+    "id": "LLANTA-002",
+    "name": "Llanta Hatchback 195/55 R16",
+    "brand": "NeumaPlus",
+    "price": 420000.0,
+    "stock": 11,
+    "imagePath": "data/Images/LLANTA-002.png"
+  },
+  {
+    "productType": "Tire",
+    "size": "205/60 R16",
+    "type": "Radial",
+    "id": "LLANTA-003",
+    "name": "Llanta SUV 205/60 R16",
+    "brand": "GripMaster",
+    "price": 520000.0,
+    "stock": 18,
+    "imagePath": "data/Images/LLANTA-003.png"
+  },
+  {
+    "productType": "Tire",
+    "size": "215/55 R17",
+    "type": "Radial",
+    "id": "LLANTA-004",
+    "name": "Llanta Deportivo 215/55 R17",
+    "brand": "GripMaster",
+    "price": 650000.0,
+    "stock": 10,
+    "imagePath": "data/Images/LLANTA-004.png"
+  },
+  {
+    "productType": "Tire",
+    "size": "225/50 R17",
+    "type": "Radial",
+    "id": "LLANTA-005",
+    "name": "Llanta Sedan Premium 225/50 R17",
+    "brand": "NeumaPlus",
+    "price": 700000.0,
+    "stock": 8,
+    "imagePath": "data/Images/LLANTA-005.png"
+  },
+  {
+    "productType": "Tire",
+    "size": "235/45 R18",
+    "type": "Radial",
+    "id": "LLANTA-006",
+    "name": "Llanta Deportivo 235/45 R18",
+    "brand": "SpeedTire",
+    "price": 850000.0,
+    "stock": 6,
+    "imagePath": "data/Images/LLANTA-006.png"
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "Distribuidora AutoPartes S.A.",
+    "invoiceNumber": "RC-0001",
+    "date": "2025-11-01",
+    "total": 480000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "BAT-001",
+        "quantity": 10,
+        "unitPrice": 48000.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "Lubricantes Colombia",
+    "invoiceNumber": "RC-0002",
+    "date": "2025-11-02",
+    "total": 420000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "LUB-001",
+        "quantity": 6,
+        "unitPrice": 70000.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "Filtros y Más",
+    "invoiceNumber": "RC-0003",
+    "date": "2025-11-03",
+    "total": 300000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "FILT-001",
+        "quantity": 10,
+        "unitPrice": 30000.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "NeumaPlus Distribuciones",
+    "invoiceNumber": "RC-0004",
+    "date": "2025-11-03",
+    "total": 1120000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "LLANTA-001",
+        "quantity": 8,
+        "unitPrice": 140000.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "BrakeMaster S.A.",
+    "invoiceNumber": "RC-0005",
+    "date": "2025-11-04",
+    "total": 800000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "BP-003",
+        "quantity": 5,
+        "unitPrice": 160000.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "Distribuciones PowerCar",
+    "invoiceNumber": "RC-0006",
+    "date": "2025-11-04",
+    "total": 1620000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "BAT-005",
+        "quantity": 3,
+        "unitPrice": 540000.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "SpeedTire Distribuciones",
+    "invoiceNumber": "RC-0007",
+    "date": "2025-11-05",
+    "total": 2550000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "LLANTA-006",
+        "quantity": 4,
+        "unitPrice": 637500.0
+      }
+    ]
+  },
+  {
+    "registerType": "PurchaseRegister",
+    "supplierName": "Autopartes Express",
+    "invoiceNumber": "RC-0008",
+    "date": "2025-11-06",
+    "total": 890000.0,
+    "status": "Recibida",
+    "items": [
+      {
+        "productId": "BAT-004",
+        "quantity": 2,
+        "unitPrice": 340000.0
+      },
+      {
+        "productId": "FILT-005",
+        "quantity": 5,
+        "unitPrice": 42000.0
+      }
+    ]
+  }
+]

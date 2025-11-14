@@ -1,0 +1,147 @@
+[
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Andrés Castillo",
+    "invoiceNumber": "FV-0001",
+    "date": "2025-11-01",
+    "total": 1300000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "BAT-005",
+        "quantity": 2,
+        "unitPrice": 650000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Daniel Rojas",
+    "invoiceNumber": "FV-0002",
+    "date": "2025-11-01",
+    "total": 800000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "LLANTA-003",
+        "quantity": 2,
+        "unitPrice": 400000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Valentina Cruz",
+    "invoiceNumber": "FV-0003",
+    "date": "2025-11-02",
+    "total": 780000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "BAT-004",
+        "quantity": 1,
+        "unitPrice": 350000.0
+      },
+      {
+        "productId": "LUB-002",
+        "quantity": 2,
+        "unitPrice": 215000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Esteban Morales",
+    "invoiceNumber": "FV-0004",
+    "date": "2025-11-03",
+    "total": 920000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "BAT-002",
+        "quantity": 2,
+        "unitPrice": 360000.0
+      },
+      {
+        "productId": "BP-003",
+        "quantity": 2,
+        "unitPrice": 100000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Santiago Herrera",
+    "invoiceNumber": "FV-0005",
+    "date": "2025-11-04",
+    "total": 985000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "LLANTA-006",
+        "quantity": 1,
+        "unitPrice": 850000.0
+      },
+      {
+        "productId": "BP-001",
+        "quantity": 1,
+        "unitPrice": 135000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Paola Díaz",
+    "invoiceNumber": "FV-0006",
+    "date": "2025-11-04",
+    "total": 430000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "BP-004",
+        "quantity": 2,
+        "unitPrice": 105000.0
+      },
+      {
+        "productId": "LUB-003",
+        "quantity": 1,
+        "unitPrice": 220000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Felipe Ortega",
+    "invoiceNumber": "FV-0007",
+    "date": "2025-11-05",
+    "total": 480000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "LUB-004",
+        "quantity": 4,
+        "unitPrice": 120000.0
+      }
+    ]
+  },
+  {
+    "registerType": "SellingRegister",
+    "customerName": "Carolina Mendoza",
+    "invoiceNumber": "FV-0008",
+    "date": "2025-11-06",
+    "total": 935000.0,
+    "status": "Pagada",
+    "items": [
+      {
+        "productId": "BAT-006",
+        "quantity": 2,
+        "unitPrice": 310000.0
+      },
+      {
+        "productId": "LUB-005",
+        "quantity": 1,
+        "unitPrice": 315000.0
+      }
+    ]
+  }
+]

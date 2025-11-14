@@ -1,0 +1,101 @@
+[
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "45Ah",
+    "id": "BAT-001",
+    "name": "Batería Compacta Sedán",
+    "brand": "Autopower",
+    "price": 320000.0,
+    "stock": 15,
+    "imagePath": "data/Images/BAT-001.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "60Ah",
+    "id": "BAT-002",
+    "name": "Batería Estándar SUV",
+    "brand": "Autopower",
+    "price": 480000.0,
+    "stock": 12,
+    "imagePath": "data/Images/BAT-002.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "70Ah",
+    "id": "BAT-003",
+    "name": "Batería Premium Deportivo",
+    "brand": "PowerCar",
+    "price": 650000.0,
+    "stock": 4,
+    "imagePath": "data/Images/BAT-003.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "55Ah",
+    "id": "BAT-004",
+    "name": "Batería Compacta Hatchback",
+    "brand": "Autopower",
+    "price": 400000.0,
+    "stock": 17,
+    "imagePath": "data/Images/BAT-004.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "80Ah",
+    "id": "BAT-005",
+    "name": "Batería SUV Todo Terreno",
+    "brand": "PowerCar",
+    "price": 720000.0,
+    "stock": 10,
+    "imagePath": "data/Images/BAT-005.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "50Ah",
+    "id": "BAT-006",
+    "name": "Batería Sedán Mediana",
+    "brand": "Autopower",
+    "price": 350000.0,
+    "stock": 18,
+    "imagePath": "data/Images/BAT-006.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "65Ah",
+    "id": "BAT-007",
+    "name": "Batería SUV Mediana",
+    "brand": "PowerCar",
+    "price": 520000.0,
+    "stock": 14,
+    "imagePath": "data/Images/BAT-007.jpg"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "40Ah",
+    "id": "BAT-008",
+    "name": "Batería Compacta Hatchback",
+    "brand": "Autopower",
+    "price": 300000.0,
+    "stock": 22,
+    "imagePath": "data/Images/BAT-008.png"
+  },
+  {
+    "productType": "Battery",
+    "voltage": "12V",
+    "capacity": "75Ah",
+    "id": "BAT-009",
+    "name": "Batería Deportivo Premium",
+    "brand": "PowerCar",
+    "price": 680000.0,
+    "stock": 7,
+    "imagePath": "data/Images/BAT-009.png"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "productType": "Filters",
+    "vehicleType": "Sedán",
+    "filterType": "Aceite",
+    "id": "FILT-001",
+    "name": "Filtro de Aceite Sedán",
+    "brand": "AutoFiltro",
+    "price": 45000.0,
+    "stock": 30,
+    "imagePath": "data/Images/FILT-001.jpg"
+  },
+  {
+    "productType": "Filters",
+    "vehicleType": "Camioneta",
+    "filterType": "Combustible",
+    "id": "FILT-003",
+    "name": "Filtro de Combustible Camioneta",
+    "brand": "FiltroPro",
+    "price": 75000.0,
+    "stock": 15,
+    "imagePath": "data/Images/FILT-003.jpg"
+  },
+  {
+    "productType": "Filters",
+    "vehicleType": "Hatchback",
+    "filterType": "Aire",
+    "id": "FILT-005",
+    "name": "Filtro de Aire Hatchback",
+    "brand": "AutoFiltro",
+    "price": 40000.0,
+    "stock": 25,
+    "imagePath": "data/Images/FILT-005.png"
+  },
+  {
+    "productType": "Lubricant",
+    "type": "Aceite Sintético",
+    "id": "LUB-001",
+    "name": "Aceite 5W-30",
+    "brand": "LubriMax",
+    "price": 120000.0,
+    "stock": 40,
+    "imagePath": "data/Images/LUB-001.png"
+  },
+  {
+    "productType": "Lubricant",
+    "type": "Aceite Mineral",
+    "id": "LUB-002",
+    "name": "Aceite 10W-40",
+    "brand": "LubriMax",
+    "price": 95000.0,
+    "stock": 35,
+    "imagePath": "data/Images/LUB-002.jpg"
+  },
+  {
+    "productType": "Lubricant",
+    "type": "Grasa",
+    "id": "LUB-003",
+    "name": "Grasa Multiuso",
+    "brand": "LubriPro",
+    "price": 70000.0,
+    "stock": 42,
+    "imagePath": "data/Images/LUB-003.jpg"
+  },
+  {
+    "productType": "Lubricant",
+    "type": "Aceite Sintético",
+    "id": "LUB-004",
+    "name": "Aceite Motor 0W-20",
+    "brand": "LubriPro",
+    "price": 150000.0,
+    "stock": 20,
+    "imagePath": "data/Images/LUB-004.jpg"
+  },
+  {
+    "productType": "Lubricant",
+    "type": "Aditivo",
+    "id": "LUB-005",
+    "name": "Aditivo Limpiador de Motor",
+    "brand": "LubriMax",
+    "price": 60000.0,
+    "stock": 30,
+    "imagePath": "data/Images/LUB-005.jpg"
+  }
+]
