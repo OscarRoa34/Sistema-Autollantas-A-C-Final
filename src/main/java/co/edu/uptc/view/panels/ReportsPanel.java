@@ -11,11 +11,11 @@ import co.edu.uptc.presenter.Presenter;
 import co.edu.uptc.models.products.Product;
 
 import co.edu.uptc.view.GlobalView;
-// --- IMPORTACIONES DE DIÁLOGOS ---
+
 import co.edu.uptc.view.dialogs.ConfigureAlertsDialog;
 import co.edu.uptc.view.dialogs.SuccessPopUp;
-import co.edu.uptc.view.dialogs.ConfirmDialog; // <<< IMPORTACIÓN AÑADIDA
-// --- ---
+import co.edu.uptc.view.dialogs.ConfirmDialog;
+
 import co.edu.uptc.view.utils.PropertiesService;
 import co.edu.uptc.view.utils.ThresholdManager;
 
@@ -27,7 +27,6 @@ import java.util.List;
 
 public class ReportsPanel extends JPanel {
 
-    // ... (El resto de las variables de instancia no cambian) ...
     private JList<Product> alertList;
     private DefaultListModel<Product> alertListModel;
     private JComboBox<String> reportTypeComboBox;
@@ -55,7 +54,6 @@ public class ReportsPanel extends JPanel {
         loadAlertsData();
     }
 
-    // ... (initComponents, createAlertsPanel, openConfigureAlertsDialog no cambian) ...
     private void initComponents() {
 
         setLayout(new BorderLayout(20, 0));
@@ -150,7 +148,6 @@ public class ReportsPanel extends JPanel {
         }
     }
 
-    // ... (createReportsPanel, createReportParametersPanel, updateParametersPanel, loadAlertsData no cambian) ...
     private JPanel createReportsPanel() {
 
         JPanel reportsContainer = new JPanel();
@@ -173,7 +170,8 @@ public class ReportsPanel extends JPanel {
         JLabel reportTypeLabel = new JLabel("Seleccione el tipo de reporte:");
         reportTypeLabel.setFont(GlobalView.TABLE_BODY_FONT.deriveFont(Font.BOLD));
         reportTypeLabel.setForeground(GlobalView.TEXT_COLOR);
-        reportTypeLabel.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        reportTypeLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
 
         String[] reportTypes = { "Reporte de Ventas", "Valoración de Inventario", "Productos Más Vendidos" };
         reportTypeComboBox = new JComboBox<>(reportTypes);
@@ -181,17 +179,23 @@ public class ReportsPanel extends JPanel {
         reportTypeComboBox.setBackground(Color.WHITE);
         reportTypeComboBox.setForeground(GlobalView.TEXT_COLOR);
         reportTypeComboBox.setBorder(new LineBorder(GlobalView.BORDER_COLOR, 1));
-        reportTypeComboBox.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        reportTypeComboBox.setAlignmentX(Component.CENTER_ALIGNMENT);
+
         Dimension comboBoxPreferredSize = reportTypeComboBox.getPreferredSize();
-        reportTypeComboBox.setMaximumSize(new Dimension(Integer.MAX_VALUE, comboBoxPreferredSize.height + 10));
+        reportTypeComboBox.setPreferredSize(new Dimension(350, comboBoxPreferredSize.height + 10));
+
+        reportTypeComboBox.setMaximumSize(new Dimension(350, comboBoxPreferredSize.height + 10));
 
         configPanel.add(reportTypeLabel);
-        configPanel.add(Box.createVerticalStrut(5));
+        configPanel.add(Box.createVerticalStrut(10));
         configPanel.add(reportTypeComboBox);
         configPanel.add(Box.createVerticalStrut(20));
 
         parametersPanel = createReportParametersPanel();
-        parametersPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
+
+        parametersPanel.setAlignmentX(Component.CENTER_ALIGNMENT);
+
         configPanel.add(parametersPanel);
 
         reportTypeComboBox.addActionListener(e -> updateParametersPanel());
@@ -211,6 +215,7 @@ public class ReportsPanel extends JPanel {
 
         generateButton.setFocusPainted(false);
         generateButton.setBorderPainted(false);
+
         generateButton.setAlignmentX(Component.CENTER_ALIGNMENT);
         generateButton.setMinimumSize(new Dimension(250, 50));
         generateButton.setPreferredSize(new Dimension(300, 50));
@@ -221,6 +226,7 @@ public class ReportsPanel extends JPanel {
                 GlobalView.CONFIRM_BUTTON_BACKGROUND,
                 GlobalView.CONFIRM_BUTTON_BACKGROUND.darker()));
 
+        reportsContainer.add(Box.createVerticalStrut(10));
         reportsContainer.add(generateButton);
 
         return reportsContainer;
@@ -406,19 +412,19 @@ public class ReportsPanel extends JPanel {
                 Date endDate = endDateChooser.getDate();
 
                 if (startDate == null || endDate == null) {
-                    // --- CAMBIO AQUÍ ---
-                    ConfirmDialog.showErrorDialog(SwingUtilities.getWindowAncestor(this), 
+
+                    ConfirmDialog.showErrorDialog(SwingUtilities.getWindowAncestor(this),
                             "Debe seleccionar una fecha de inicio y fin.", "Error de Fechas");
-                    return; 
+                    return;
                 }
 
                 if (endDate.before(startDate)) {
-                    // --- CAMBIO AQUÍ ---
-                    ConfirmDialog.showErrorDialog(SwingUtilities.getWindowAncestor(this), 
+
+                    ConfirmDialog.showErrorDialog(SwingUtilities.getWindowAncestor(this),
                             "La fecha de fin no puede ser anterior a la fecha de inicio.", "Error de Fechas");
-                    return; 
+                    return;
                 }
-                
+
                 suggestedFileName = String.format("Reporte_Ventas_%tF_a_%tF.pdf",
                         startDate, endDate);
                 break;
@@ -466,13 +472,12 @@ public class ReportsPanel extends JPanel {
 
         } catch (Exception ex) {
             ex.printStackTrace();
-            // --- CAMBIO AQUÍ ---
-            ConfirmDialog.showErrorDialog(SwingUtilities.getWindowAncestor(this), 
+
+            ConfirmDialog.showErrorDialog(SwingUtilities.getWindowAncestor(this),
                     "Error al generar el PDF: " + ex.getMessage(), "Error");
         }
     }
 
-    // ... (createIcon, AlertListCellRenderer, ButtonHoverEffect, CustomScrollBarUI, refreshData no cambian) ...
     private ImageIcon createIcon(String path, int width, int height) {
         if (path == null || path.trim().isEmpty()) {
             return null;
