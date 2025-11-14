@@ -634,15 +634,19 @@ public class EditCreateProductPanel extends JPanel {
                     "Confirmación");
 
             if (confirmed) {
-                onSaveCallback.accept(updatedProduct);
-                closePanel();
+              onSaveCallback.accept(updatedProduct);
+            closePanel();
 
-                Window parentWindow = SwingUtilities.getWindowAncestor(this);
-                Frame frameParent = (parentWindow instanceof Frame) ? (Frame) parentWindow : null;
+            Window parentWindow = SwingUtilities.getWindowAncestor(this);
+            Frame frameParent = (parentWindow instanceof Frame) ? (Frame) parentWindow : null;
 
-                SuccessPopUp.showSuccessPopup(frameParent,
-                        "Éxito:", "El producto se actualizó exitosamente.");
-            }
+            String successMessage = isCreateMode 
+                    ? "El producto fue creado exitosamente." 
+                    : "El producto se actualizó exitosamente.";
+
+                    SuccessPopUp.showSuccessPopup(frameParent,
+                    "Éxito:", successMessage);
+        }
 
         } catch (Exception ex) {
             ex.printStackTrace();
