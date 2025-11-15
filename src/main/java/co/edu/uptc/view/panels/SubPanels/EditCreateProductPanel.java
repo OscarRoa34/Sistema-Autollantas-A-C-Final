@@ -634,7 +634,7 @@ public class EditCreateProductPanel extends JPanel {
                     "Confirmación");
 
             if (confirmed) {
-              onSaveCallback.accept(updatedProduct);
+            onSaveCallback.accept(updatedProduct);
             closePanel();
 
             Window parentWindow = SwingUtilities.getWindowAncestor(this);

@@ -726,13 +726,25 @@ public class EditCreateSalesPanel extends JPanel {
                         itemJson.put("unitPrice", item.getUnitPrice());
                         itemsJsonArray.put(itemJson);
                     }
+
+                    Window parentWindow = SwingUtilities.getWindowAncestor(this);
+                    Frame frameForPopUp = (parentWindow instanceof Frame) ? (Frame) parentWindow
+                            : (Frame) SwingUtilities.getWindowAncestor(parentPanel);
+                    
                     dataForCallback.put("items", itemsJsonArray);
                     onSaveCallback.accept(dataForCallback);
                     closePanel();
-                    SuccessPopUp.showSuccessPopup((Frame) SwingUtilities.getWindowAncestor(this),
-                            "Éxito:", "El registro se actualizó exitosamente.");
-                } else {
-                    showSimpleError("No se pudo guardar el registro. Revise la consola.");
+
+                    
+
+                   String successMessage = isCreateMode
+                            ? "El registro de venta fue creado exitosamente."
+                            : "El registro de venta se actualizó exitosamente.";
+
+                    SuccessPopUp.showSuccessPopup(frameForPopUp,
+                            "Éxito:", successMessage);
+                 } else {
+                    showSimpleError("No se pudo guardar el registro.");
                 }
             }
         } catch (Exception ex) {

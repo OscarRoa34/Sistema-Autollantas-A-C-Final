@@ -760,8 +760,12 @@ public class EditCreatePurchasePanel extends JPanel {
                     onSaveCallback.accept(dataForCallback);
                     closePanel();
 
+                    String successMessage = isCreateMode
+                            ? "El registro de compra fue creado exitosamente."
+                            : "El registro de compra se actualizó exitosamente.";
+
                     SuccessPopUp.showSuccessPopup(frameForPopUp,
-                            "Éxito:", "El registro se actualizó exitosamente.");
+                            "Éxito:", successMessage);
                 } else {
                     showSimpleError("No se pudo guardar el registro. Revise la consola.");
                 }
